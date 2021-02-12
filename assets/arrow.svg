@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="15px" viewBox="0 0 9 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>button_arrow_right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Web-networking---Tommy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="00.01-Login---Login-Copy" transform="translate(-507.000000, -851.000000)" fill="#FFFFFF">
+            <path d="M508.372625,865.780769 L514.795055,859.583095 C515.401648,858.99773 515.401648,858.048104 514.795055,857.462739 L508.326024,851.219345 C508.025445,850.930035 507.540016,850.926288 507.235554,851.21185 C506.924879,851.503408 506.920996,851.983842 507.22701,852.279898 L513.147701,857.992641 C513.451386,858.285698 513.451386,858.760136 513.147701,859.053193 L507.274388,864.720966 C506.970704,865.013274 506.970704,865.488461 507.274388,865.780769 C507.578073,866.073077 508.069717,866.073077 508.372625,865.780769 Z" id="button_arrow_right"></path>
+        </g>
+    </g>
+</svg>

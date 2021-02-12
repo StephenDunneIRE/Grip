@@ -1,0 +1,151 @@
+/* Outer Container Alignments */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f9f9f9;
+	color: #7e7a99;
+}
+
+#footer {
+	font-weight: 500;
+	font-size: 1em;
+	color: #605d75;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+
+/* Content Column Grid Alignments */
+
+.column {
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	-webkit-transition: width 0.5s linear;
+	-moz-transition: width 0.5s linear;
+	-ms-transition: width 0.5s linear;
+	-o-transition: width 0.5s linear;
+	transition: width 0.5s linear;
+}
+
+.column.left {
+	background-color: #ffffff;
+}
+
+.column.right {
+	background-color: #f9f9f9;
+}
+
+@media (max-width: 850px) {
+	.column {
+		width: 100%;
+	}
+
+	.column.right {
+		/* display: none; */
+		background-image: linear-gradient(#ffffff, #f9f9f9, #f9f9f9);
+		/* background-color: #ffffff; */
+	}
+
+	#footer {
+		position: relative;
+		float: right;
+	}
+}
+
+.column-spacer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 98vh;
+}
+
+.column-contents {
+	width: 100%;
+	max-width: 420px;
+}
+
+.column-contents.wide {
+	max-width: 95%;
+	padding: 10px;
+}
+
+
+/* Other Element Stylings */
+
+img {
+	width: 100%;
+}
+
+#img-grip-logo {
+	margin-bottom: 20px;
+}
+
+#img-laptop {
+	max-width: 80%;
+	margin: 0 10%;
+	transition: all .5s linear;
+}
+
+@media (max-height: 600px) {
+	#img-laptop {
+		max-width: 40%;
+	}
+}
+
+#btn-login {
+	width: 100%;
+	display: block;
+	padding: 10px 18px;
+	color: #ffffff;
+	background-color: #f07102;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	line-height: 2;
+	font-weight: bold;
+	font-size: 18px;
+	cursor: pointer;
+	/* Make anchor element appear as button */
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	text-decoration: none;
+	height: 40px !important;
+}
+
+#btn-login:hover {
+	background-color: #a74e00;
+}
+
+.lbl-subheader {
+	font-size: 1.1em;
+	margin-bottom: 1.5rem;
+	padding-left: 5px;
+}
+
+#lbl-statement {
+	font-size: 1.7em;
+	font-weight: 700;
+	line-height: 1.5em;
+	color: #3f3f3f;
+	margin-bottom: 1rem;
+}
+
+#lbl-testimonial {
+	margin: 0 10%;
+}
+
+#lbl-greeting {
+	padding-left: 5px;
+	text-align: left;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
